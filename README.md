@@ -4,6 +4,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 In the project directory, you can run:
 
+There is json-server here on [http://localhost:3004](http://localhost:3004) , so you should start it first using 
+### yarn run json-server
+
+after, use
 ### `yarn start`
 
 Runs the app in the development mode.<br />

@@ -1,0 +1,9 @@
+.registrationPageWrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.phrase{
+    width: 700px;
+    margin-top: 50px;
+}

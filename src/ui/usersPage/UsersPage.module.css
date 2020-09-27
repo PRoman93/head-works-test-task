@@ -1,4 +1,15 @@
-.usersPageWrapper{
-    margin: 70px 0;
+.usersPageWrapper {
+    display: flex;
+    justify-content: center;
     position: relative;
+    text-align: center;
+}
+
+.userPageContainer {
+    width: 80%;
+    align-items: center;
+}
+
+.userWrapper {
+    margin-top: 10px;
 }

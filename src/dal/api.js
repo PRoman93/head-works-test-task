@@ -1,20 +1,20 @@
 import axios from 'axios'
 
-const instance = axios.create({
-    baseURL: 'https://5f6e074060cf97001641ba04.mockapi.io'
+const instanceForUser = axios.create({
+    baseURL: 'http://localhost:3004/users'
 })
-
+const instanceForRegister = axios.create({
+    baseURL: "https://meowfacts.herokuapp.com/"
+})
 
 export const api = {
     getUsers() {
-        return instance.get('').then(res => {
-            return{
-                res
-            }
-        })
+        return instanceForUser.get('').then(res => res.data)
     },
-    addUser(user){
-        debugger
-        return instance.post('', {user})
+    addUser(user) {
+        return instanceForUser.post('', user)
+    },
+    getData() {
+        return instanceForRegister.get('').then(res => res.data)
     }
 }

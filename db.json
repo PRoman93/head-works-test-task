@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "first_name": "Роман",
+      "last_name": "2",
+      "gender": "male",
+      "program_loyalty": "unavailable",
+      "date": "2020-09-27T16:04:01.626Z",
+      "card_number": null,
+      "id": 1
+    }
+  ]
+}

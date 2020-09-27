@@ -1,4 +1,10 @@
 .aboutMePageWrapper {
     margin: 70px 0;
     position: relative;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.aboutMePageWrapper a {
+    text-decoration: none;
 }

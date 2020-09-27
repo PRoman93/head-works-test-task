@@ -1,21 +1,23 @@
 import React, {useEffect} from "react";
 import UsersPage from "./UsersPage";
-import {useDispatch} from "react-redux";
-import {getUsers, addUser} from "../../bll/usersPageReducer";
+import {useDispatch, useSelector} from "react-redux";
+import {getUsers} from "../../bll/usersPageReducer";
+import s from "./UsersPage.module.css";
 
 const UsersPageContainer = (props) => {
 
     const dispatch = useDispatch()
+    const users = useSelector(state => state.reducer.users)
+    console.log(users)
+
     useEffect(() => {
         dispatch(getUsers())
     }, [])
-
-    const addNewUser = (user) => {
-        debugger
-        dispatch(addUser(user))
-    }
+debugger
     return (
-        <UsersPage addUser={addNewUser}/>
+        <div className={s.usersPageWrapper}>
+            {users && <UsersPage users={users}/>}
+        </div>
     )
 }
 export default UsersPageContainer
