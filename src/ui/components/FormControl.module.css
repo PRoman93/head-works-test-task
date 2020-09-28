@@ -13,6 +13,12 @@
 .formControl.error div {
     color: red
 }
+.formRadioControl.error span {
+    color: red
+}
+.formRadioControl.error div {
+    color: red
+}
 .input {
     background-color: #61dafb;;
     border: 1px solid blanchedalmond;
