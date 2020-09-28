@@ -7,7 +7,6 @@ let reducers = combineReducers({
     reducer: usersPageReducer,
     form:formReducer
 })
-
 const store = createStore(reducers, applyMiddleware(thunkMiddleware))
 export default store
 

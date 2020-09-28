@@ -17,9 +17,7 @@ const MainPage = (props) => {
                     <Route path={REGISTRATION_PAGE} component={RegistrationPage}/>
                     <Route path={ABOUT_ME} component={AboutMePage}/>
                 </div>
-
             </div>
-
         </>
     )
 }

@@ -1,20 +1,18 @@
 .header{
     margin: 0 auto;
-    /*position: fixed;*/
+    position: fixed;
     width: 100%;
     height: 50px;
     box-shadow: 0 0 10px rgba(0,0,0,0.5);
     background-color: #61dafb;
+    z-index: 1;
 }
-
 .navMenu {
     width: 80%;
     height: 50px;
     display: flex;
     justify-content: flex-end;
-
 }
-
 .navMenu a {
     padding: 10px;
     margin: 5px;
@@ -23,8 +21,16 @@
     font-family: Dubai;
     text-transform: uppercase;
 }
-
 .navMenu a:hover {
     color: yellowgreen;
     transition: all 0.5s;
 }
+@media (max-device-width: 1200px) and (min-device-width: 320px) {
+    .navMenu {
+        height: 20px;
+    }
+    .header {
+        font-size: 11px;
+    }
+}
+

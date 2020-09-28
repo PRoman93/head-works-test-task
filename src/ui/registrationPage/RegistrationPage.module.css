@@ -1,9 +1,59 @@
-.registrationPageWrapper{
+.registrationPageWrapper {
     display: flex;
     justify-content: center;
     text-align: center;
 }
-.phrase{
-    width: 700px;
+
+.RegistrationPageContainer {
+    text-align: center;
+    align-items: center;
+}
+
+.phrase {
+    width: 80%;
     margin-top: 50px;
+    align-items: center;
+    text-align: center;
+}
+
+.formFieldContainer {
+    display: flex;
+}
+
+.radioContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.singleFieldWrapper {
+    margin: 0 20px;
+    width: 200px;
+}
+
+.fieldWrapper {
+    margin-top: 50px;
+}
+
+.phraseWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-device-width: 1200px) and (min-device-width: 320px) {
+    .phrase {
+        width: 300px;
+        margin-top: 20px;
+    }
+
+    .singleFieldWrapper {
+        margin: 0 5px;
+        width: 200px;
+    }
+
+    .radioContainer {
+        display: flex;
+        align-items: center;
+        align-content: center;
+        flex-direction: column;
+    }
 }

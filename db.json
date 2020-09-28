@@ -2,12 +2,57 @@
   "users": [
     {
       "first_name": "Роман",
-      "last_name": "2",
+      "last_name": "roman_prokopets@mail.ua",
       "gender": "male",
       "program_loyalty": "unavailable",
-      "date": "2020-09-27T16:04:01.626Z",
+      "date": "2020-09-28T06:01:22.884Z",
       "card_number": null,
       "id": 1
+    },
+    {
+      "first_name": "ssss",
+      "gender": "male",
+      "last_name": "Прокопец",
+      "program_loyalty": "mobile_application",
+      "date": "2020-09-28T06:09:03.160Z",
+      "card_number": null,
+      "id": 2
+    },
+    {
+      "program_loyalty": "unavailable",
+      "gender": "female",
+      "first_name": "s",
+      "last_name": "a",
+      "date": "2020-09-28T06:31:21.030Z",
+      "card_number": null,
+      "id": 3
+    },
+    {
+      "first_name": "aaa",
+      "last_name": "a",
+      "gender": "female",
+      "program_loyalty": "mobile_application",
+      "date": "2020-09-28T08:48:35.319Z",
+      "card_number": null,
+      "id": 4
+    },
+    {
+      "last_name": "qqqq",
+      "first_name": "qwerr",
+      "gender": "male",
+      "program_loyalty": "unavailable",
+      "date": "2020-09-28T08:48:39.936Z",
+      "card_number": null,
+      "id": 5
+    },
+    {
+      "gender": "female",
+      "program_loyalty": "plastic_card",
+      "last_name": "roman_prokopets@mail.ua",
+      "card_number": "Prokopets1993ыыы",
+      "first_name": "к",
+      "date": "2020-09-28T12:00:18.571Z",
+      "id": 6
     }
   ]
 }

@@ -1,20 +1,33 @@
-.formControl.error input{
+.formControl input {
+    width: 40%;
+}
+.formRadioControl input{
+    width: 40%;
+}
+.formControl.error input {
     border: 2px red solid;
 }
-.formControl.error span{
-    color:red
+.formControl.error span {
+    color: red
 }
-.input{
+.formControl.error div {
+    color: red
+}
+.input {
     background-color: #61dafb;;
-    border: 0 solid blanchedalmond;
+    border: 1px solid blanchedalmond;
     margin: 1px;
     padding: 6px;
-    color:black;
+    color: black;
     width: 30%;
 }
-.input:hover{
+.input:hover {
     background-color: #F3AE0F;
 }
-.input:active{
+.input:active {
     background-color: gold;
+}
+@media screen and (max-device-width:650px ){
+    .formControl input {
+    }
 }
