@@ -73,7 +73,7 @@ const Registration = (props) => {
             program_loyalty: (formData.program_loyalty === 'mobile_application'
                 ? 'mobile_application' : formData.program_loyalty === 'plastic_card' ? 'plastic_card'
                     : 'unavailable'),
-            date: new Date(),
+            date: new Date().toDateString(),
             card_number: formData.program_loyalty === 'plastic_card' ? formData.card_number : null
         }
         props.addNewUser(data)

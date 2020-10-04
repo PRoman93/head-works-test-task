@@ -1,4 +1,13 @@
 {
   "users": [
+    {
+      "first_name": "Роман",
+      "last_name": "Прокопец",
+      "gender": "male",
+      "program_loyalty": "mobile_application",
+      "date": "Sun Oct 04 2020",
+      "card_number": null,
+      "id": 1
+    }
   ]
 }
