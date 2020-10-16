@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/head-works-test-task/static/css/main.955b5e12.chunk.css",
+    "main.js": "/head-works-test-task/static/js/main.a5b3007b.chunk.js",
+    "main.js.map": "/head-works-test-task/static/js/main.a5b3007b.chunk.js.map",
+    "runtime-main.js": "/head-works-test-task/static/js/runtime-main.b7d31b6e.js",
+    "runtime-main.js.map": "/head-works-test-task/static/js/runtime-main.b7d31b6e.js.map",
+    "static/js/2.cb9c2fca.chunk.js": "/head-works-test-task/static/js/2.cb9c2fca.chunk.js",
+    "static/js/2.cb9c2fca.chunk.js.map": "/head-works-test-task/static/js/2.cb9c2fca.chunk.js.map",
+    "index.html": "/head-works-test-task/index.html",
+    "precache-manifest.a0ffb54205a639088589d1b878b3deae.js": "/head-works-test-task/precache-manifest.a0ffb54205a639088589d1b878b3deae.js",
+    "service-worker.js": "/head-works-test-task/service-worker.js",
+    "static/css/main.955b5e12.chunk.css.map": "/head-works-test-task/static/css/main.955b5e12.chunk.css.map",
+    "static/js/2.cb9c2fca.chunk.js.LICENSE.txt": "/head-works-test-task/static/js/2.cb9c2fca.chunk.js.LICENSE.txt",
+    "static/media/preloader.gif": "/head-works-test-task/static/media/preloader.0a80076b.gif"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.b7d31b6e.js",
+    "static/js/2.cb9c2fca.chunk.js",
+    "static/css/main.955b5e12.chunk.css",
+    "static/js/main.a5b3007b.chunk.js"
+  ]
+}
