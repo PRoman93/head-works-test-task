@@ -4,7 +4,7 @@ const instanceForUser = axios.create({
     baseURL: 'http://localhost:3004/users'
 })
 const instanceForRegister = axios.create({
-    baseURL: "https://meowfacts.herokuapp.com/"
+    baseURL: `https://meowfacts.herokuapp.com/`
 })
 
 export const api = {
